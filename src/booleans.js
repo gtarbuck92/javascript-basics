@@ -1,61 +1,61 @@
 const negate = a => {
-  // your code here
+  return !a 
 };
 
 const both = (a, b) => {
-  // your code here
+  return a > 0 && b > 0 ? true : false
 };
 
 const either = (a, b) => {
-  // your code here
+  return a > 0 || b > 0 ? true : false
 };
 
 const none = (a, b) => {
-  // your code here
+  return !a && !b ? true : false
 };
 
 const one = (a, b) => {
-  // your code here
+  return a && b || !a && !b  ? false : true
 };
 
 const truthiness = a => {
-  // your code here
+  return a ? true : false
 };
 
 const isEqual = (a, b) => {
-  // your code here
+  return a === b ? true : false
 };
 
 const isGreaterThan = (a, b) => {
-  // your code here
+  return a > b ? true : false
 };
 
 const isLessThanOrEqualTo = (a, b) => {
-  // your code here
+  return a <= b ? true : false
 };
 
 const isOdd = a => {
-  // your code here
+  return a % 2 === 0 ? false : true
 };
 
 const isEven = a => {
-  // your code here
+  return a % 2 === 0 ? true : false
 };
 
 const isSquare = a => {
-  // your code here
+  return Math.sqrt(a) % 1 === 0 ? true : false
 };
 
 const startsWith = (char, string) => {
-  // your code here
+  return string.charAt(0) === char ? true : false
 };
 
 const containsVowels = string => {
-  // your code here
+  return string.match(/[AEIOUaeiou]/g,) ? true : false
 };
 
 const isLowerCase = string => {
-  // your code here
+  return string === string.toLowerCase() ? true : false
 };
 
 module.exports = {
